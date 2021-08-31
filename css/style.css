@@ -128,7 +128,7 @@ body {
   #header {
     padding: 20px 0;
     height: 110px;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -444,7 +444,7 @@ body {
   /* Mobile Nav Toggle */
   
   #mobile-nav-toggle {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     z-index: 999;
