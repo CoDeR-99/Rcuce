@@ -128,7 +128,7 @@ body {
   #header {
     padding: 20px 0;
     height: 110px;
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -444,7 +444,7 @@ body {
   /* Mobile Nav Toggle */
   
   #mobile-nav-toggle {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
     z-index: 999;
@@ -1528,7 +1528,7 @@ body {
     }
   }
   
-  @media (min-width: 1024px) {
+  @media (min-width: 1150px) {
     #header #logo {
       padding-left: 60px;
     }
@@ -1570,5 +1570,11 @@ body {
   
     #mobile-nav-toggle {
       display: inline;
+    }
+  }
+
+@media only screen and (max-width: 966px) and (min-width: 768px){
+    .nav-menu a{
+      font-size: 12px;
     }
   }
